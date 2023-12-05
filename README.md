@@ -4,7 +4,7 @@ A CLI tool to analyze composer dependencies and identify packages that are not u
 
 # Fork Notice
 
-This project is a fork of the original [Insolita/unused-scanner](https://github.com/Insolita/unused-scanner), originally created by https://github.com/Insolita. Unfortunately, https://github.com/Insolita has passed away, and as a result, the original repository is no longer actively maintained. In an effort to keep the project alive and address any potential issues, this fork has been initiated. I extend my heartfelt gratitude to https://github.com/Insolita for her invaluable contributions. The original repository can be found [here](https://github.com/Insolita/unused-scanner) in memory of https://github.com/Insolita.
+This project is a fork of the original [Insolita/unused-scanner](https://github.com/Insolita/unused-scanner), originally created by [Insolita](https://github.com/Insolita). Unfortunately, [Insolita](https://github.com/Insolita) has passed away, and as a result, the original repository is no longer actively maintained. In an effort to keep the project alive, this fork has been initiated. I extend my heartfelt gratitude to [Insolita](https://github.com/Insolita) for her invaluable contributions. The original repository can be found [here](https://github.com/Insolita/unused-scanner) in memory of [Insolita](https://github.com/Insolita).
 
 ### Installation
 
