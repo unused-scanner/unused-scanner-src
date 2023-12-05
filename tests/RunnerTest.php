@@ -2,7 +2,7 @@
 
 namespace tests;
 
-use insolita\Scanner\Lib\Runner;
+use UnusedScanner\Lib\Runner;
 use phpmock\functions\FixedValueFunction;
 use phpmock\MockBuilder;
 use PHPUnit\Framework\TestCase;
@@ -55,7 +55,7 @@ class RunnerTest extends TestCase
     {
         parent::setUp();
         $mock = (new MockBuilder())
-            ->setNamespace('insolita\Scanner\Lib')
+            ->setNamespace('UnusedScanner\Lib')
             ->setName("date")->setFunctionProvider(new FixedValueFunction('2018-01-02_03_04'))
             ->build();
         $mock->enable();

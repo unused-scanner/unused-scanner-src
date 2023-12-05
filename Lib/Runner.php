@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace insolita\Scanner\Lib;
+namespace UnusedScanner\Lib;
 
-use insolita\Scanner\Exceptions\InvalidConfigException;
+use UnusedScanner\Exceptions\InvalidConfigException;
 use Symfony\Component\Finder\Finder;
 use Throwable;
 use function call_user_func;

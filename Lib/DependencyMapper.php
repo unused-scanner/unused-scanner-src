@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace insolita\Scanner\Lib;
+namespace UnusedScanner\Lib;
 
 use function array_reduce;
 use function file_exists;
@@ -15,7 +15,7 @@ final class DependencyMapper
     private $dependencies;
     
     /**
-     * @var \insolita\Scanner\Lib\Config
+     * @var \UnusedScanner\Lib\Config
      */
     private $config;
     

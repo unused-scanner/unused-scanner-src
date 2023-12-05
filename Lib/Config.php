@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace insolita\Scanner\Lib;
+namespace UnusedScanner\Lib;
 
-use insolita\Scanner\Exceptions\InvalidConfigException;
+use UnusedScanner\Exceptions\InvalidConfigException;
 use function is_array;
 use function is_callable;
 use function is_dir;
@@ -209,8 +209,8 @@ final class Config
     /**
      * @param array $data
      *
-     * @return \insolita\Scanner\Lib\Config
-     * @throws \insolita\Scanner\Exceptions\InvalidConfigException
+     * @return \UnusedScanner\Lib\Config
+     * @throws \UnusedScanner\Exceptions\InvalidConfigException
      */
     public static function create(array $data): Config
     {

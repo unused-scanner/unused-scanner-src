@@ -1,5 +1,5 @@
 <?php
-namespace insolita\Scanner\Exceptions;
+namespace UnusedScanner\Exceptions;
 
 use Exception;
 

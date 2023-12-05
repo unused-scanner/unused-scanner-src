@@ -1,40 +1,43 @@
 {
-    "name":              "insolita/unused-scanner" ,
-    "description":       "Detect unused composer dependencies" ,
-    "type":              "library" ,
-    "license":           "mit" ,
-    "authors":           [
-        {
-            "name":  "insolita" ,
-            "email": "webmaster100500@ya.ru"
-        }
-    ] ,
-    "minimum-stability": "dev" ,
-    "prefer-stable": true ,
-    "require":           {
-        "php":            ">=7.1" ,
-        "ext-json":       "*" ,
-        "ext-mbstring":   "*" ,
-        "symfony/finder": "^3.4|^4.0|^5.0|^6.0" 
-    } ,
-    "require-dev":       {
-        "phpunit/phpunit": "^7.0|^8.0|^9.0",
+    "name": "unused-scanner/unused-scanner-src",
+    "description": "Detect unused composer dependencies",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Martins Sipenko",
+        "email": "martins.sipenko@gmail.com"
+    }, {
+        "name": "insolita",
+        "email": "webmaster100500@ya.ru"
+    }],
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "symfony/finder": "^3.4 || ^4.0 || ^5.0 || ^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0",
         "symfony/thanks": "^1.2",
         "php-mock/php-mock-phpunit": "^2.6"
-    } ,
-    "bin":               [
-        "unused_scanner"
-    ] ,
-    "autoload":          {
+    },
+    "autoload": {
         "psr-4": {
-            "insolita\\Scanner\\Lib\\": "Lib" ,
-            "insolita\\Scanner\\Exceptions\\": "Exceptions",
-            "tests\\": "tests"
+            "UnusedScanner\\Lib\\": "Lib/",
+            "UnusedScanner\\Exceptions\\": "Exceptions/"
         }
-    } ,
-    "extra": {
-        "branch-alias": {
-            "dev-legacy": "1.3.x-dev"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\": "tests/"
+        }
+    },
+    "bin": [
+        "unused_scanner"
+    ],
+    "config": {
+        "allow-plugins": {
+            "symfony/thanks": true
         }
     }
 }

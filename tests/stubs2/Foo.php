@@ -1,6 +1,6 @@
 <?php
 use TheSeer\Tokenizer\{NamespaceUri, NamespaceUriException};
-use insolita\Scanner\Lib\Config;
+use UnusedScanner\Lib\Config;
 use Symfony\Thanks\{
     GitHubClient as HubClient,
     Thanks

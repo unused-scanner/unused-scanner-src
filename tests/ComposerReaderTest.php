@@ -1,8 +1,8 @@
 <?php
 namespace tests;
 
-use insolita\Scanner\Lib\ComposerReader;
-use insolita\Scanner\Lib\Config;
+use UnusedScanner\Lib\ComposerReader;
+use UnusedScanner\Lib\Config;
 use PHPUnit\Framework\TestCase;
 
 class ComposerReaderTest extends TestCase

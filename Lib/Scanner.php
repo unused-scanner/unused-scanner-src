@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace insolita\Scanner\Lib;
+namespace UnusedScanner\Lib;
 
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Finder\SplFileInfo;
@@ -27,7 +27,7 @@ final class Scanner
     private $searchPatterns;
     
     /**
-     * @var \insolita\Scanner\Lib\Config
+     * @var \UnusedScanner\Lib\Config
      */
     private $config;
     

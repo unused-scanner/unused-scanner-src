@@ -1,10 +1,10 @@
 <?php
-use insolita\Scanner\Lib\Config;
+use UnusedScanner\Lib\Config;
 
 class Foo
 {
     /**
-     * @param \insolita\Scanner\Lib\DependencyMapper $z
+     * @param \UnusedScanner\Lib\DependencyMapper $z
     **/
     public function bar($z)
     {
@@ -14,7 +14,7 @@ class Foo
         $d = (Prophecy\Exception\Exception::class).'foo';
         return [
             'a'=>Config::class,
-            'b'=> insolita\Scanner\Lib\ComposerReader::class,
+            'b'=> UnusedScanner\Lib\ComposerReader::class,
             'c'=> 'Symfony\Component\Finder\Exception\AccessDeniedException',
             'd'=> 'Symfony\\Component\\Finder\\Finder',
             'e'=> Text_Template::class,

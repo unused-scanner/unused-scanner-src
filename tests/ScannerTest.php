@@ -1,8 +1,8 @@
 <?php
 namespace tests;
 
-use insolita\Scanner\Lib\Config;
-use insolita\Scanner\Lib\Scanner;
+use UnusedScanner\Lib\Config;
+use UnusedScanner\Lib\Scanner;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Finder\SplFileInfo;
@@ -11,9 +11,9 @@ class ScannerTest extends TestCase
 {
     protected static $map
         = [
-            'insolita\Scanner\Lib\DependencyMapper' => 0,
-            'insolita\Scanner\Lib\Config' => 1,
-            'insolita\Scanner\Lib\ComposerReader' => 2,
+            'UnusedScanner\Lib\DependencyMapper' => 0,
+            'UnusedScanner\Lib\Config' => 1,
+            'UnusedScanner\Lib\ComposerReader' => 2,
             'Symfony\Component\Finder\Exception' => 3,
             'Symfony\Component\Finder\Finder' => 4,
             'Text_Template' => 5,

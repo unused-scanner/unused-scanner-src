@@ -2,7 +2,7 @@
 
 namespace tests;
 
-use insolita\Scanner\Lib\Config;
+use UnusedScanner\Lib\Config;
 use PHPUnit\Framework\TestCase;
 
 class ConfigTest extends TestCase

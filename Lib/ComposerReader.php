@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace insolita\Scanner\Lib;
+namespace UnusedScanner\Lib;
 
 use function array_filter;
 use function in_array;
