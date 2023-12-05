@@ -29,12 +29,6 @@ Add --silent option for skip progress output and return exit code = 16, when unu
 
 run `unused_scanner --silent /path/to/configuration/file/scanner_config.php`
 
-**Docker**:
-
-https://github.com/juanmrad/docker-unused-scanner
-
-![Demo screenshot](unused.png)
-
 ### Licence
 
 This project uses the [MIT licence](https://choosealicense.com/licenses/mit/).
