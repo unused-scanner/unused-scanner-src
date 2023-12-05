@@ -1,30 +1,14 @@
-# Project scanner for detect unused composer dependencies
+# Unused Scanner
 
-![unused-scanner](https://github.com/Insolita/unused-scanner/workflows/unused-scanner/badge.svg?branch=master)
+A CLI tool to analyze composer dependencies and identify packages that are not used and could potentially be removed.
 
-### Versions
+# Fork Notice
 
-Use 1.3.x@dev versions for projects with php 5.6, 7.0
-
-Use 2.x versions for projects with php >= 7.1 
-
-### ChangeLog
-
-see [CHANGELOG.md](CHANGELOG.md)
+This project is a fork of the original [Insolita/unused-scanner](https://github.com/Insolita/unused-scanner), originally created by https://github.com/Insolita. Unfortunately, https://github.com/Insolita has passed away, and as a result, the original repository is no longer actively maintained. In an effort to keep the project alive and address any potential issues, this fork has been initiated. I extend my heartfelt gratitude to https://github.com/Insolita for her invaluable contributions. The original repository can be found [here](https://github.com/Insolita/unused-scanner) in memory of https://github.com/Insolita.
 
 ### Installation
 
-`composer global require insolita/unused-scanner`
-
-Ensure that your ~/.composer/vendor/bin directory declared in $PATH
-
-`echo $PATH`
-
-if not - you should add it in ~/.bashrc or ~/.profile
-
-### Update
-
-`composer global update`
+`composer require --dev unused-scanner/unused-scanner`
 
 ### Usage
 
